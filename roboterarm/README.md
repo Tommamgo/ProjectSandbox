@@ -1,7 +1,3 @@
-Ich bin mir zu 90 % sicher, dass die folgende Beschreibung deinem Vorhaben entspricht. Da du noch keine konkrete Idee hast, ist der Text eher als Brainstorming und Ausgangspunkt für das Projekt gedacht. Falls du noch mehr Details hast oder dich auf einen bestimmten Aspekt fokussieren möchtest, gib mir einfach Bescheid.
-
----
-
 # VR-gesteuerter Roboterarm
 
 ## Projektidee
