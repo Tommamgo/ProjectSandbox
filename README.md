@@ -24,10 +24,6 @@ Die Struktur sieht folgendermaßen aus:
 
 Wenn du eigene Ideen hast, kannst du gerne einen neuen Ordner anlegen und dort deine Materialien, Notizen und Überlegungen ablegen. Schreib einfach in die README im neuen Ordner eine kurze Beschreibung deiner Idee. Je mehr wir sammeln, desto einfacher wird es, uns für ein Projekt zu entscheiden, das uns beide begeistert.
 
-## Fragen und Kommunikation
-
-Für Fragen kannst du gerne eine neue Datei anlegen und sie in den entsprechenden Ordner packen. Alternativ können wir uns auch jederzeit über WhatsApp austauschen, falls das schneller geht.
-
 ## Technologien und Fähigkeiten
 
 Hier sind die Fähigkeiten, die ich (Linus) einbringe. Das hilft uns, besser zu planen, wer was übernimmt:
@@ -43,6 +39,4 @@ Hier sind die Fähigkeiten, die ich (Linus) einbringe. Das hilft uns, besser zu 
 - **Docker**: Containerisierung und Deployment
 - **Webentwicklung**: Minimale Kenntnisse, aber einsatzbereit
 
----
 
-Ich freue mich auf deine Ideen und auf die Zusammenarbeit!
