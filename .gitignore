@@ -1,0 +1,12 @@
+# exclude dir
+gesetzesanalyse/*.pyc
+gesetzesanalyse/__pycache__/
+gesetzesanalyse/.pytest_cache/
+gesetzesanalyse/venv/
+
+
+
+# dont push API Keys
+**/apikey
+
+
