@@ -2,27 +2,36 @@
 
 ## Projektidee
 
-Die Idee zu diesem Projekt kam mir, nachdem ich selbst eine frustrierende Erfahrung mit meiner Haftpflichtversicherung gemacht habe. Ich hatte bei meiner Versicherung einen Schaden gemeldet, den ich bei meiner Freundin verursacht hatte. Die Versicherung lehnte den Schaden jedoch ab, mit der Begründung, dass wir zusammenwohnen und daher kein Anspruch bestünde. Das hat mich ziemlich geärgert. Daraufhin habe ich alle Vertragsunterlagen, Beschreibungen und E-Mails an ChatGPT übergeben und gefragt, ob es einen Weg gibt, wie die Versicherung den Schaden doch übernehmen könnte. Am Ende habe ich es tatsächlich geschafft, dass der Schaden erstattet wurde.
+Die Idee zu diesem Projekt entstand aus einer eigenen frustrierenden Erfahrung mit meiner Haftpflichtversicherung. Nachdem ich bei meiner Versicherung einen Schaden gemeldet hatte, den ich bei meiner Freundin verursacht hatte, lehnte die Versicherung den Schaden mit der Begründung ab, dass wir zusammenwohnen und daher kein Anspruch bestünde. Das Ergebnis ärgerte mich sehr. Daraufhin übergab ich alle relevanten Vertragsunterlagen, Beschreibungen und E-Mails an ChatGPT und fragte, ob es eine Möglichkeit gäbe, die Versicherung zur Übernahme des Schadens zu bewegen. Am Ende konnte ich tatsächlich erreichen, dass der Schaden erstattet wurde.
 
-Daraus entstand die Idee, eine Plattform oder ein Machine-Learning-Modell zu entwickeln, das genau bei solchen Problemen hilft. Es soll Verträge und Gesetze analysieren und bei konkreten Fragen oder Streitfällen mögliche Lösungsansätze liefern. Wichtig dabei: Es geht nicht darum, eine rechtlich verbindliche Antwort zu geben, sondern eher um eine erste Orientierung – so wie man es von einer Erstberatung beim Anwalt kennt.
+Aus dieser Erfahrung entstand die Idee, eine Plattform oder ein Machine-Learning-Modell zu entwickeln, das bei ähnlichen Problemen unterstützen kann. Es soll Verträge und Gesetze analysieren und bei konkreten Fragen oder Streitfällen Lösungsansätze aufzeigen. Wichtig ist dabei, dass die Plattform keine rechtlich verbindliche Beratung ersetzt, sondern eher eine erste Orientierung bietet – ähnlich einer anwaltlichen Erstberatung.
 
-Ich habe mich auch mit einer Anwältin darüber unterhalten. Sie meinte, dass solche Tools grundsätzlich sinnvoll sein können und es bereits erste Ansätze gibt, aber Gesetze immer Interpretationsspielraum bieten und die Argumentation oft auf vergleichbaren Fällen basiert. Genau da könnten wir ansetzen: Gesetze und Urteile scrapen und daraus ein System aufbauen, das erste Einschätzungen zu Verträgen und rechtlichen Fragestellungen liefert.
+Ein Gespräch mit einer Anwältin bestärkte die Idee: Sie bestätigte, dass solche Tools grundsätzlich sinnvoll sein können, da es bereits erste Ansätze gibt. Allerdings bieten Gesetze oft Interpretationsspielraum, und rechtliche Argumentationen basieren meist auf vergleichbaren Fällen. Genau hier könnte unsere Plattform ansetzen: Durch das Scraping von Gesetzen und Urteilen ließe sich ein System aufbauen, das erste Einschätzungen zu Verträgen und rechtlichen Fragen liefert.
 
 ## Ziel des Projekts
 
-Das Hauptziel ist es, eine Plattform zu entwickeln, die Verträge und Gesetze automatisch analysiert und bei bestimmten rechtlichen Sachverhalten Unterstützung bietet. Die Anwendung soll nicht als Ersatz für eine Rechtsberatung dienen, sondern eher als Hilfsmittel, um die verschiedenen Möglichkeiten aufzuzeigen, wie man eine Situation angehen könnte – ähnlich einer ersten Beratung beim Anwalt.
+Das Hauptziel ist die Entwicklung einer Plattform, die Verträge und Gesetze automatisch analysiert und Nutzern bei spezifischen rechtlichen Fragen Orientierung bietet. Diese Anwendung soll keine vollständige Rechtsberatung ersetzen, sondern mögliche Optionen aufzeigen, um eine rechtliche Fragestellung einzuschätzen – analog zu einer anwaltlichen Erstberatung.
 
 ## Geplante Funktionen
 
-- **Vertrags- und Gesetzesanalyse**: Automatische Auswertung von Vertragsklauseln und gesetzlichen Bestimmungen.
-- **Datenbeschaffung**: Scraping von Gesetzen und Urteilen aus dem Internet oder die Nutzung bestehender Datensätze, falls verfügbar.
-- **Vergleichbare Fälle**: Einbindung von Präzedenzfällen und Urteilen, um mögliche Argumentationsstrategien aufzuzeigen.
-- **Web-App**: Eine einfache Oberfläche, auf der Nutzer ihre Frage oder den Sachverhalt eingeben können und eine Einschätzung bekommen.
+- **Vertrags- und Gesetzesanalyse**: Automatische Analyse von Vertragsklauseln und gesetzlichen Bestimmungen.
+- **Datenbeschaffung**: Scraping von Gesetzen und Urteilen aus dem Internet sowie die Nutzung bereits verfügbarer Datensätze.
+- **Vergleichbare Fälle**: Integration von Präzedenzfällen und Urteilen, um mögliche Argumentationsstrategien zu ermitteln.
+- **Web-App**: Eine intuitive Oberfläche, auf der Nutzer Fragen oder Sachverhalte eingeben und eine Einschätzung erhalten.
 
 ## Technische Umsetzung
 
 - **Programmiersprache**: Python für das Machine-Learning-Modell.
-- **Machine Learning**: Einsatz von Natural Language Processing (NLP) für die Analyse von Verträgen und Gesetzen.
-- **Web-App**: Entwicklung einer Webseite, auf der Nutzer ihre Fragen eingeben und die Analyseergebnisse sehen können.
-- **Datenbank**: MongoDB zur Speicherung der Gesetzestexte, Verträge und Präzedenzfälle.
+- **Machine Learning**: Anwendung von Natural Language Processing (NLP) zur Analyse von Verträgen und Gesetzen.
+- **Web-App**: Entwicklung einer Webseite, auf der Nutzer Fragen eingeben und Analyseergebnisse sehen können.
+- **Datenbank**: Einsatz von MongoDB zur Speicherung von Gesetzestexten, Verträgen und Präzedenzfällen.
 
+## Tools und Bibliotheken für NLP
+
+Für die technische Umsetzung stehen einige geeignete NLP-Tools und Bibliotheken zur Verfügung:
+
+- **LexNLP** (https://github.com/LexPredict/lexpredict-lexnlp): Diese spezialisierte Bibliothek ist speziell für juristische Textanalysen optimiert und bietet viele nützliche Funktionen zur Extraktion rechtlicher Begriffe, Klauseln und relevanter Daten.
+- **spaCy** (https://github.com/explosion/spaCy): Ein leistungsfähiges NLP-Framework, das sich auch für juristische Anwendungen anpassen lässt. spaCy bietet robuste Funktionen zur Verarbeitung und Analyse von Texten und lässt sich mit spezialisierten Modellen erweitern.
+- **NLTK** (https://www.nltk.org/): Diese etablierte Bibliothek ist ebenfalls nützlich für allgemeine NLP-Aufgaben und kann als Basis für die Textvorverarbeitung und -analyse dienen.
+
+Mit diesen Tools steht eine solide Grundlage zur Verfügung, um NLP-gestützte Vertrags- und Gesetzesanalysen umzusetzen.
